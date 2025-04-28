@@ -1,0 +1,22 @@
+{
+  "name": "zsh-launcher",
+  "version": "0.1.0",
+  "description": "Adds a “New Zsh Terminal” tile to JupyterLab’s launcher",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@jupyterlab/application": "^4.0.7",
+    "@jupyterlab/launcher":   "^4.0.7"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5",
+    "@types/node": "*"
+  },
+  "jupyterlab": {
+    "extension": true,
+    "outputDir": "lib"
+  },
+  "license": "BSD-3-Clause"
+}

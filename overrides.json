@@ -1,0 +1,21 @@
+{
+    "@jupyterlab/launcher-extension:plugin": {
+      "items": [
+        {
+          "command": "terminal:create",
+          "args": { "cwd": "", "shell": "/bin/bash" },
+          "category": "Terminal",
+          "rank": 1,
+          "name": "New Bash Terminal"
+        },
+        {
+          "command": "terminal:create",
+          "args": { "cwd": "", "shell": "/usr/bin/zsh" },
+          "category": "Terminal",
+          "rank": 2,
+          "name": "New Zsh Terminal"
+        }
+      ]
+    }
+  }
+  
